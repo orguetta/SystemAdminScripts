@@ -9,9 +9,9 @@ $events = get-eventlog -logname Security  -InstanceID "4728" -newest 100
 $event2 = $events | select-string -inputobject {$_.message} -pattern "domain admins"
   
     $EmailBody = $event2
-    $EmailFrom = "<admin@consumerphysics.com>"
-    $EmailTo = “logs@consumerphysics.com" 
+    $EmailFrom = "<alert@example.com>"
+    $EmailTo = “logs@example.com" 
     $EmailSubject = "a user was added to domain admins"
-    $SMTPServer = "aspmx.l.google.com"
+    $SMTPServer = "smtp.example.com"
     Send-MailMessage -From $EmailFrom -To $EmailTo -Subject $EmailSubject -body $EmailBody -SmtpServer $SMTPServer
 Exit
