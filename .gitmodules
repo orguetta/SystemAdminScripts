@@ -1,3 +1,6 @@
 [submodule "Awesome-Python-Scripts"]
 	path = Awesome-Python-Scripts
 	url = https://github.com/hastagAB/Awesome-Python-Scripts.git
+[submodule "Powershell-Scripts-for-Hackers-and-Pentesters"]
+	path = Powershell-Scripts-for-Hackers-and-Pentesters
+	url = https://github.com/Whitecat18/Powershell-Scripts-for-Hackers-and-Pentesters
