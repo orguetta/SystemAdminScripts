@@ -1,0 +1,3 @@
+[submodule "Awesome-Python-Scripts"]
+	path = Awesome-Python-Scripts
+	url = https://github.com/hastagAB/Awesome-Python-Scripts.git
