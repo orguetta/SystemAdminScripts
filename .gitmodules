@@ -4,3 +4,6 @@
 [submodule "Powershell-Scripts-for-Hackers-and-Pentesters"]
 	path = Powershell-Scripts-for-Hackers-and-Pentesters
 	url = https://github.com/Whitecat18/Powershell-Scripts-for-Hackers-and-Pentesters
+[submodule "PowershellEWSTools"]
+	path = PowershellEWSTools
+	url = https://github.com/DrummerViking/tools
