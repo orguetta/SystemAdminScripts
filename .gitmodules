@@ -7,3 +7,6 @@
 [submodule "PowershellEWSTools"]
 	path = PowershellEWSTools
 	url = https://github.com/DrummerViking/tools
+[submodule "PowerShell-Hunter"]
+	path = PowerShell-Hunter
+	url = https://github.com/MHaggis/PowerShell-Hunter.git
